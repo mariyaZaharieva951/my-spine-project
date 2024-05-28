@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
-        'source-sans': ['Source Sans Pro', 'sans-serif'],
+        '': ['Source Sans Pro', 'sans-serif'],
       },
       colors: {
         'green-light': '#B4FF5C',
