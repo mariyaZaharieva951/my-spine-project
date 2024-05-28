@@ -10,3 +10,10 @@
   max-width: 1170px;
   margin: auto;
 }
+
+.custom-button {
+    border:1px;
+    border-radius:20px;
+    padding:3px 1px;
+    font:bold
+}

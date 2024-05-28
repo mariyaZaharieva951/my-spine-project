@@ -12,11 +12,17 @@ module.exports = {
         'poppins': ['Poppins', 'sans-serif'],
         'source-sans': ['Source Sans Pro', 'sans-serif'],
       },
-      color: {
+      colors: {
         'green-light': '#B4FF5C',
         'gray-text': '#606060',
-        'gray-light': '#F1F4F5'
-      }
+        'gray-light': '#F1F4F5',
+        'gray-dark': '#464646',
+        'black-text': '#0C0C0C'
+      },
+      gradientColorStops: theme => ({
+        'green-light': '#DCFFB3',
+        'white': '#ffffff',
+      }),
     },
   },
   plugins: [],
