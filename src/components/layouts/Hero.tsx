@@ -17,7 +17,7 @@ const Hero = () => {
     <div className="inline-block custom-button bg-green-light mt-[50px]">Start for free</div>
   </div>
 
-      <div className="relative flex items-center justify-center lg:w-[1200px] lg:h-[400px] -mt-[80px]">
+      <div className="relative flex items-center justify-center lg:w-[1200px] lg:h-[400px] -mt-[80px] pb-[80px]">
         <img
           className="lg:w-[374px] lg:h-[374px] absolute left-0"
           src="./assets/hero1.png"

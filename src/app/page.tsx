@@ -1,5 +1,6 @@
 import Header from "@/components/layouts/Header";
 import Hero from "@/components/layouts/Hero";
+import Posters from "@/components/layouts/Posters";
 
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
         <Header/>
         <Hero/>
       </div>
-      
+      <Posters/>
       
     </main>
   );
