@@ -23,6 +23,9 @@ module.exports = {
         'green-light': '#DCFFB3',
         'white': '#ffffff',
       }),
+      backgroundImage: {
+        'web-design': "url('/assets/background.png')",
+      },
     },
   },
   plugins: [],

@@ -2,6 +2,7 @@ import Excellence from "@/components/layouts/Excellence";
 import Header from "@/components/layouts/Header";
 import Hero from "@/components/layouts/Hero";
 import Posters from "@/components/layouts/Posters";
+import Presence from "@/components/layouts/Presence";
 
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
       </div>
       <Posters/>
       <Excellence/>
+      <div className="bg-web-design bg-center">
+        <Presence/>
+      </div>
       
     </main>
   );
