@@ -1,3 +1,4 @@
+import Excellence from "@/components/layouts/Excellence";
 import Header from "@/components/layouts/Header";
 import Hero from "@/components/layouts/Hero";
 import Posters from "@/components/layouts/Posters";
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero/>
       </div>
       <Posters/>
+      <Excellence/>
       
     </main>
   );
