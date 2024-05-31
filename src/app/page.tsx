@@ -1,3 +1,4 @@
+import Accordion from "@/components/layouts/Accordion";
 import Excellence from "@/components/layouts/Excellence";
 import Header from "@/components/layouts/Header";
 import Hero from "@/components/layouts/Hero";
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="bg-web-design bg-center">
         <Presence/>
       </div>
+      <Accordion/>
       
     </main>
   );
