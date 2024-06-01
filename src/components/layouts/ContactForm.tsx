@@ -1,7 +1,7 @@
 
 const ContactForm = () => {
   return (
-    <div className="lg:w-[530px] pt-[80px] mx-auto rounded-lg">
+    <div className="lg:w-[530px] pt-[80px] rounded-lg">
         <form className="space-y-6">
     
           <div>
@@ -51,7 +51,7 @@ const ContactForm = () => {
             </label>
             <textarea
               placeholder="Type your message here..."
-              className="w-full p-2 bg-gray-light rounded-md"
+              className="w-full p-2 bg-gray-light rounded-md text-sm"
               style={{ height: '190px' }}
             ></textarea>
           </div>
@@ -59,9 +59,9 @@ const ContactForm = () => {
           <div>
             <button
               type="submit"
-              className="w-full p-3 bg-blue-500 text-white font-bold rounded-md hover:bg-blue-600"
+              className="w-full p-3 text-base bg-green-light text-black-text font-bold rounded-md hover:bg-black-text hover:text-white"
             >
-              Submit
+              Send Message
             </button>
           </div>
         </form>

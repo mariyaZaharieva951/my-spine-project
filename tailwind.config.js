@@ -17,7 +17,9 @@ module.exports = {
         'gray-text': '#606060',
         'gray-light': '#F1F4F5',
         'gray-dark': '#464646',
-        'black-text': '#0C0C0C'
+        'gray-bg': '#D9D9D9',
+        'black-text': '#0C0C0C',
+
       },
       gradientColorStops: theme => ({
         'green-light': '#DCFFB3',
