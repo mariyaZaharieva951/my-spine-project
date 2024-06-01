@@ -1,6 +1,7 @@
 import Accordion from "@/components/layouts/Accordion";
 import Contact from "@/components/layouts/Contact";
 import Excellence from "@/components/layouts/Excellence";
+import Footer from "@/components/layouts/Footer";
 import Header from "@/components/layouts/Header";
 import Hero from "@/components/layouts/Hero";
 import Posters from "@/components/layouts/Posters";
@@ -21,7 +22,7 @@ export default function Home() {
       </div>
       <Accordion/>
       <Contact/>
-      
+      <Footer/>
     </main>
   );
 }
