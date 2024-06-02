@@ -10,17 +10,17 @@ import {
 
 const Contact = () => {
   return (
-    <div className="lg:w-[1170px] lg:pb-[160px] mx-auto flex lg:flex-row flex-col justify-between">
+    <div className="lg:w-[1170px] lg:pb-[160px] mx-auto flex lg:flex-row flex-col justify-center lg:justify-between">
       <div className="lg:w-[530px] pt-[80px]">
-        <h2 className="lg:text-6xl text-4xl font-bold">
+        <h2 className="lg:text-6xl text-4xl font-bold text-center lg:text-left">
           Get in Touch with Spine
         </h2>
-        <p className="lg:text-base text-sm font-bold text-gray-text py-4">
+        <p className="lg:text-base text-sm font-bold text-gray-text text-center lg:text-left py-4">
           Whether you have questions about our services, want to discuss a
           potential collaboration, or just feel like saying hello, we`d love to
           hear from you.
         </p>
-        <ul>
+        <ul className="text-center lg:text-left">
           <li className="lg:text-xl text-lg font-bold ml-20px p-3 bg-gray-bg">
             <FontAwesomeIcon icon={faLocationDot} className="pr-2 text-sm" />
             Plovdiv, K. Riacho 95, Bulgaria

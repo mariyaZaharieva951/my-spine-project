@@ -28,7 +28,7 @@ const Accordion = () => {
   return (
     <div className="lg:w-[970px] mx-auto lg:pt-[160px] px-[24px] lg:px-0">
       <h2 className="lg:text-7xl text-4xl font-bold">Got Questions? We`ve Got Answers!</h2>
-      <p className="lg:text-base text-sm font-bold lg:pt-[20px] lg:pb-[80px]">Check out the services</p>
+      <p className="lg:text-base text-sm font-bold pt-[20px] lg:pb-[80px] pb-[40px] ">Check out the services</p>
 
       <div className="lg:w-[970px] mx-auto pb-[60px]">
         {items.map((item, index) => (

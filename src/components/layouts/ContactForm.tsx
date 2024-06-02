@@ -1,7 +1,7 @@
 
 const ContactForm = () => {
   return (
-    <div className="lg:w-[530px] pt-[80px] rounded-lg">
+    <div className="lg:w-[530px] w-[342px] mx-auto pt-[80px] rounded-lg">
         <form className="space-y-6">
     
           <div>
@@ -30,7 +30,7 @@ const ContactForm = () => {
     <input
       type="email"
       placeholder="company@gmail.com"
-      className="p-2 bg-gray-light rounded-md text-sm"
+      className="w-full p-2 bg-gray-light rounded-md text-sm"
     />
   </div>
   <div className="flex flex-col space-y-1 w-1/2">
@@ -40,7 +40,7 @@ const ContactForm = () => {
     <input
       type="text"
       placeholder="+359 000 000 000"
-      className="p-2 bg-gray-light rounded-md text-sm"
+      className="w-full p-2 bg-gray-light rounded-md text-sm"
     />
   </div>
 </div>
