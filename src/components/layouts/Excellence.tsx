@@ -1,9 +1,9 @@
 const Excellence = () => {
   return (
-    <div className="container flex flex-col items-start pt-[80px] pb-[160px]">
+    <div className="container flex flex-col items-start lg:pt-[80px] pt-[40px] lg:pb-[160px] pb-[60px] px-[24px] lg:px-0">
       <div className="flex lg:flex-row flex-col lg:gap-6px">
         <div className="lg:w-[670px] h-auto">
-          <h2 className="lg:text-7xl text-5xl font-bold pb-3">
+          <h2 className="lg:text-7xl text-4xl font-bold pb-3">
             Unlocking Digital Excellence
           </h2>
           <p className="lg:text-base text-sm text-gray-text font-bold">
@@ -40,9 +40,10 @@ const Excellence = () => {
             </li>
           </ul>
         </div>
-        <img className="lg:w-[467px] lg:h-[467px]" src="./assets/digital.png" />
+        <img className="lg:block hidden lg:w-[467px] lg:h-[467px]" src="./assets/digital.png" />
       </div>
       <div className="inline-block custom-button bg-green-light">About us</div>
+      <img className="lg:hidden block lg:w-[467px] lg:h-[467px] mt-[33px]" src="./assets/digital.png" />
     </div>
   );
 };
