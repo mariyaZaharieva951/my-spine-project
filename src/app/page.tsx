@@ -11,7 +11,7 @@ import Presence from "@/components/layouts/Presence";
 export default function Home() {
   return (
     <main>
-      <div className="bg-gradient-to-b from-green-light to-white h-[883px] w-full">
+      <div className="bg-gradient-to-b from-green-light to-white lg:h-[883px] w-full">
         <Header/>
         <Hero/>
       </div>
