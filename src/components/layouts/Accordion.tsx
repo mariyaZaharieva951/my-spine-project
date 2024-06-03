@@ -30,7 +30,7 @@ const Accordion = () => {
       <h2 className="lg:text-7xl text-4xl font-bold">Got Questions? We`ve Got Answers!</h2>
       <p className="lg:text-base text-sm font-bold pt-[20px] lg:pb-[80px] pb-[40px] ">Check out the services</p>
 
-      <div className="lg:w-[970px] mx-auto pb-[60px]">
+      <div className="lg:w-[970px] mx-auto pb-[40px]">
         {items.map((item, index) => (
           <AccordionItem key={index} title={item.title} content={item.content} />
         ))}

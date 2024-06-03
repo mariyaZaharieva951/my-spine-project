@@ -11,18 +11,24 @@ import Presence from "@/components/layouts/Presence";
 export default function Home() {
   return (
     <main>
-      <div className="bg-gradient-to-b from-green-light to-white lg:h-[883px] w-full">
-        <Header/>
-        <Hero/>
-      </div>
-      <Posters/>
-      <Excellence/>
-      <div className="bg-web-design bg-center">
-        <Presence/>
-      </div>
-      <Accordion/>
-      <Contact/>
-      <Footer/>
-    </main>
+  <div className="bg-gradient-to-b from-green-light to-white lg:h-[883px] w-full">
+    <Header />
+    <Hero />
+  </div>
+  <Posters />
+  <Excellence />
+  <div className="bg-web-design bg-center">
+    <Presence />
+  </div>
+  <Accordion />
+  <div className="flex flex-col">
+    <div className="order-1 lg:order-2">
+      <Footer />
+    </div>
+    <div className="order-2 lg:order-1">
+      <Contact />
+    </div>
+  </div>
+</main>
   );
 }
