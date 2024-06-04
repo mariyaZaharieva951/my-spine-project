@@ -17,7 +17,7 @@ const Contact = () => {
         </h2>
         <p className="lg:text-base text-sm font-bold text-gray-text text-center lg:text-left py-4">
           Whether you have questions about our services, want to discuss a
-          potential collaboration, or just feel like saying hello, we`d love to
+          potential collaboration, or just feel like saying hello, we'd love to
           hear from you.
         </p>
         <ul className="text-center lg:text-left">

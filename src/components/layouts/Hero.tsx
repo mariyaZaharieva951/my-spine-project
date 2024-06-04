@@ -14,7 +14,7 @@ const Hero = () => {
     </h1>
     <p className="text-gray-dark lg:text-sm font-bold text-center pt-[32px]">
       Elevate your online presence with Spine cutting-edge solutions.
-      Discover limitless possibilities for your digital agency`s success.
+      Discover limitless possibilities for your digital agency's success.
     </p>
     <div className="inline-block custom-button bg-green-light mt-[50px]">
       Start for free

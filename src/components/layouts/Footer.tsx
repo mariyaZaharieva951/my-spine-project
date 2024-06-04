@@ -14,8 +14,8 @@ const Footer = () => {
             alt="Logo"
           />
           <p className="text-white lg:text-sm py-[30px]">
-            Spine is the ultimate boost for your online presence. We`re here to
-            supercharge your digital agency`s journey.
+            Spine is the ultimate boost for your online presence. We're here to
+            supercharge your digital agenc's journey.
           </p>
           <div className="lg:w-[100px] flex lg:justify-between justify-center gap-5 mb-[80px] lg:mb-0">
             <FontAwesomeIcon icon={faFacebook} className="w-[20px] h-[20px] text-white pr-2" />
