@@ -38,7 +38,7 @@ const Presence = () => {
           </button>
         </div>
       </div>
-      <div className="lg:w-full w-[342px] h-[44px] lg:mt-[40px]">
+      <div className="lg:w-full 342px] h-[44px] lg:mt-[40px]">
         <img src="./assets/line.png" className="w-full object-contain" />
       </div>
     </div>
