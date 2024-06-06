@@ -1,10 +1,12 @@
+import Image from 'next/image';
+
 const Hero = () => {
   return (
     <div className="container pt-[60px]">
   <div className="relative mx-auto flex flex-col items-center lg:w-[672px] lg:h-[357px]">
     <h1 className="lg:w-full lg:text-8xl text-5xl font-bold text-source-sans z-10 relative text-center">
       <span className="text-nowrap">We love to find</span>
-      <img
+      <Image
         src="./assets/effect.png"
         alt="effect"
         className="absolute lg:w-[223px] lg:h-[37px] lg:top-[135px] lg:left-[130px] w-[120px] top-[70px] left-[100px] z-20"
