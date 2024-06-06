@@ -6,7 +6,7 @@ const Hero = () => {
   <div className="relative mx-auto flex flex-col items-center lg:w-[672px] lg:h-[357px]">
     <h1 className="lg:w-full lg:text-8xl text-5xl font-bold text-source-sans z-10 relative text-center">
       <span className="text-nowrap">We love to find</span>
-      <div className="absolute lg:w-[223px] lg:h-[37px] w-[120px] h-[37px] lg:top-[135px] lg:left-[130px] top-[70px] left-[100px] z-20">
+      <div className="absolute lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[135px] lg:left-[130px] top-[60px] left-[85px] z-20">
             <Image
               src="/assets/effect.png"
               alt="effect"
@@ -19,7 +19,7 @@ const Hero = () => {
     </h1>
     <p className="text-gray-dark lg:text-sm font-bold text-center pt-[32px]">
       Elevate your online presence with Spine cutting-edge solutions.
-      Discover limitless possibilities for your digital agency`&apos;`s success.
+      Discover limitless possibilities for your digital agency&aposs success.
     </p>
     <div className="inline-block custom-button bg-green-light mt-[50px]">
       Start for free
