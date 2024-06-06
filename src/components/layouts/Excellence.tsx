@@ -7,7 +7,7 @@ const Excellence = () => {
             Unlocking Digital Excellence
           </h2>
           <p className="lg:text-base text-sm text-gray-text font-bold">
-            At Spine, we're on a mission to empower businesses with the digital
+            At Spine, we`&apos;`re on a mission to empower businesses with the digital
             tools and expertise they need to thrive in the ever-evolving online
             landscape.
           </p>
@@ -17,14 +17,14 @@ const Excellence = () => {
               <span>
                 <span className="font-bold text-black-text">Our Team: </span>
                 Introduce the core members of your team, their expertise, and
-                their commitment to your clients' success.
+                their commitment to your clients success.
               </span>
             </li>
             <li className="flex items-start lg:text-base text-sm text-gray-text">
               <img src="./assets/point.png" className="mr-2 mt-1" />
               <span>
                 <span className="font-bold text-black-text">Core Values: </span>
-                Share your company's core values and the principles that guide
+                Share your company`&apos;`s core values and the principles that guide
                 your work.
               </span>
             </li>
