@@ -24,7 +24,7 @@ const Excellence = () => {
               <img src="./assets/point.png" className="mr-2 mt-1" />
               <span>
                 <span className="font-bold text-black-text">Core Values: </span>
-                Share your company&aposs core values and the principles that guide
+                Share your company`&apos;`s core values and the principles that guide
                 your work.
               </span>
             </li>
