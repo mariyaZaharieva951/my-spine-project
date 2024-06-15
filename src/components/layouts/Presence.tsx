@@ -1,9 +1,31 @@
-import Image from "next/image";
+'use client'
+import { useState } from 'react';
+import Image from 'next/image';
 
 const Presence = () => {
+  const images = [
+    '/assets/webdesign.png',
+    '/assets/hero1.png',
+    '/assets/hero2.png',
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(1);
+
+  const nextImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
   return (
     <div className="container flex flex-col items-start lg:pt-[120px] pt-[60px] lg:pb-[80px] px-[24px] lg:px-0">
-      <div className="flex flex-col lg:flex-row lg:gap-[60px]  lg:pb-[80px] pb-[60px]">
+      <div className="flex flex-col lg:flex-row lg:gap-[60px] lg:pb-[80px] pb-[60px]">
         <h2 className="lg:w-full lg:text-7xl text-4xl font-bold lg:text-start text-source-sans z-10 relative text-center">
           <span className="text-nowrap">Elevate Your</span>
           <div className="absolute lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[105px] lg:left-[5px] top-[60px] left-[85px] z-20">
@@ -32,10 +54,17 @@ const Presence = () => {
       </div>
 
       <div className="container flex lg:flex-row flex-col lg:gap-[60px]">
-        <img
-          className="lg:w-[407px] lg:h-[407px] lg:border-none w-[263.16px] h-[263.29px] mx-auto lg:mx-0 rounded-xl bg-white mb-[40px] lg:mb-0"
-          src="./assets/webdesign.png"
-        />
+        <div className="lg:w-[407px] lg:h-[407px] lg:border-none w-[263.16px] h-[263.29px] mx-auto lg:mx-0 rounded-xl bg-white mb-[40px] lg:mb-0 relative">
+          <Image
+            src={images[currentImageIndex]}
+            alt="Web Design"
+            width={407}
+            height={407}
+            layout="responsive"
+            objectFit="contain"
+            objectPosition="center"
+          />
+        </div>
         <div className="lg:w-[703px] lg:h-[321px] my-auto">
           <h2 className="lg:text-7xl text-4xl font-bold pb-[20px]">
             Web Design and Development
@@ -51,33 +80,33 @@ const Presence = () => {
           </button>
         </div>
       </div>
+
       <div className="flex items-center gap-7 lg:w-full w-[352px] h-[44px] lg:mt-[40px]">
+        <Image
+          src="/assets/rectangle.svg"
+          alt="Rectangle"
+          width={34}
+          height={10}
+        />
+
         <div className="flex gap-3">
-          <img
-            src="/assets/rectangle.svg"
-            alt="Rectangle"
-            className="w-[34px] h-[10px]"
-          />
-          <img
-            src="/assets/circle.svg"
-            alt="Circle"
-            className="w-[10px] h-[10px]"
-          />
-          <img
-            src="/assets/circle.svg"
-            alt="Circle"
-            className="w-[10px] h-[10px]"
-          />
-          <img
-            src="/assets/circle.svg"
-            alt="Circle"
-            className="w-[10px] h-[10px]"
-          />
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className={`w-[10px] h-[10px] rounded-full ${
+                currentImageIndex === index ? 'bg-black-text' : 'bg-gray-bg'
+              }`}
+            />
+          ))}
         </div>
 
-        <img src="/assets/line2.svg" alt="Line" className="w-[848px] h-[1px]" />
+        <Image src="/assets/line2.svg" alt="Line" width={848} height={1} />
+
         <div className="flex gap-5">
-          <div className="rounded-full overflow-hidden border border-gray-500 p-3">
+          <div
+            className="rounded-full overflow-hidden border border-gray-500 p-3 cursor-pointer"
+            onClick={prevImage}
+          >
             <Image
               src="/assets/left.svg"
               alt="Left Arrow"
@@ -85,7 +114,10 @@ const Presence = () => {
               height={20}
             />
           </div>
-          <div className="rounded-full overflow-hidden border border-gray-500 p-3">
+          <div
+            className="rounded-full overflow-hidden border border-gray-500 p-3 cursor-pointer"
+            onClick={nextImage}
+          >
             <Image
               src="/assets/right.svg"
               alt="Right Arrow"
