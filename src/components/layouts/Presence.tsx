@@ -1,10 +1,23 @@
+import Image from 'next/image';
+
 const Presence = () => {
   return (
     <div className="container flex flex-col items-start lg:pt-[120px] pt-[60px] lg:pb-[80px] px-[24px] lg:px-0">
-      <div className="flex flex-col lg:flex-row lg:gap-[60px] lg:pb-[80px] pb-[60px]">
-        <h2 className="lg:text-7xl text-4xl font-bold">
-          Elevate Your Digital Presence
-        </h2>
+      <div className="flex flex-col lg:flex-row lg:gap-[60px]  lg:pb-[80px] pb-[60px]">
+        <h2 className="lg:w-full lg:text-7xl text-4xl font-bold lg:text-start text-source-sans z-10 relative text-center">
+      <span className="text-nowrap">Elevate Your</span>
+      <div className="absolute lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[105px] lg:left-[5px] top-[60px] left-[85px] z-20">
+            <Image
+              src="/assets/effect.png"
+              alt="effect"
+              layout="fill"
+              objectFit="contain"
+              objectPosition="center"
+            />
+          </div>
+      <span className="relative z-10"> Digital</span>
+      <span className="text-nowrap"> Presence</span>
+    </h2>
         <div className="flex items-start flex-col">
           <p className="lg:w-[458px] lg:text-base font-bold text-gray-text lg:pb-[28px] pt-[12px] lg:pt-0 pb-[32px]">
             Crafting digital masterpieces tailored to your brand, we turn

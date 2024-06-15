@@ -6,7 +6,7 @@ const Hero = () => {
   <div className="relative mx-auto flex flex-col items-center lg:w-[672px] lg:h-[357px]">
     <h1 className="lg:w-full lg:text-8xl text-5xl font-bold text-source-sans z-10 relative text-center">
       <span className="text-nowrap">We love to find</span>
-      <div className="absolute lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[135px] lg:left-[130px] top-[60px] left-[85px] z-20">
+      <div className="absolute lg:w-[285px] lg:h-[37px] w-[120px] h-[47px] lg:top-[136px] lg:left-[120px] top-[60px] left-[85px] z-20">
             <Image
               src="/assets/effect.png"
               alt="effect"
