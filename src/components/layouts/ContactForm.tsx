@@ -52,8 +52,7 @@ const ContactForm = () => {
             </label>
             <textarea
               placeholder="Type your message here..."
-              className="w-full p-2 bg-gray-light rounded-md text-sm"
-              style={{ height: '190px' }}
+              className="w-full p-2 h-[190px] bg-gray-light rounded-md text-sm"
             ></textarea>
           </div>
   

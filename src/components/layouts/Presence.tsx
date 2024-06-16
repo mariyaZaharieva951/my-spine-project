@@ -1,12 +1,12 @@
-'use client'
-import { useState } from 'react';
-import Image from 'next/image';
+"use client";
+import { useState } from "react";
+import Image from "next/image";
 
 const Presence = () => {
   const images = [
-    '/assets/webdesign.png',
-    '/assets/hero1.png',
-    '/assets/hero2.png',
+    "/assets/webdesign.png",
+    "/assets/hero1.png",
+    "/assets/hero2.png",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(1);
@@ -26,9 +26,9 @@ const Presence = () => {
   return (
     <div className="container flex flex-col items-start lg:pt-[120px] pt-[60px] lg:pb-[80px] px-[24px] lg:px-0">
       <div className="flex flex-col lg:flex-row lg:gap-[60px] lg:pb-[80px] pb-[60px]">
-        <h2 className="lg:w-full lg:text-7xl text-4xl font-bold lg:text-start text-source-sans z-10 relative text-center">
+        <h2 className="lg:w-full lg:text-7xl text-4xl font-bold text-start text-source-sans z-10 relative text-center">
           <span className="text-nowrap">Elevate Your</span>
-          <div className="absolute lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[105px] lg:left-[5px] top-[60px] left-[85px] z-20">
+          <div className="absolute lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[105px] lg:left-[5px] top-[40px] left-[10px] z-20">
             <Image
               src="/assets/effect.png"
               alt="effect"
@@ -54,13 +54,11 @@ const Presence = () => {
       </div>
 
       <div className="container flex lg:flex-row flex-col lg:gap-[60px]">
-        <div className="lg:w-[407px] lg:h-[407px] lg:border-none w-[263.16px] h-[263.29px] mx-auto lg:mx-0 rounded-xl bg-white mb-[40px] lg:mb-0 relative">
+        <div className="relative lg:w-[407px] lg:h-[407px] w-[263px] h-[263px] mx-auto lg:mx-0 rounded-xl bg-white mb-[40px] lg:mb-0">
           <Image
             src={images[currentImageIndex]}
             alt="Web Design"
-            width={407}
-            height={407}
-            layout="responsive"
+            layout="fill"
             objectFit="contain"
             objectPosition="center"
           />
@@ -81,7 +79,7 @@ const Presence = () => {
         </div>
       </div>
 
-      <div className="flex items-center gap-7 lg:w-full w-[352px] h-[44px] lg:mt-[40px]">
+      <div className="flex items-center gap-4 lg:gap-7 lg:w-full w-[352px] lg:h-[44px] h-auto lg:mt-[40px] mt-[20px] mb-[80px] lg:mb-0">
         <Image
           src="/assets/rectangle.svg"
           alt="Rectangle"
@@ -89,20 +87,26 @@ const Presence = () => {
           height={10}
         />
 
-        <div className="flex gap-3">
+        <div className="flex gap-2 lg:gap-3">
           {images.map((image, index) => (
             <div
               key={index}
               className={`w-[10px] h-[10px] rounded-full ${
-                currentImageIndex === index ? 'bg-black-text' : 'bg-gray-bg'
+                currentImageIndex === index ? "bg-black-text" : "bg-gray-bg"
               }`}
             />
           ))}
         </div>
 
-        <Image src="/assets/line2.svg" alt="Line" width={848} height={1} />
+        <Image
+          src="/assets/line2.svg"
+          alt="Line"
+          width={848}
+          height={1}
+          className="lg:w-[848px] w-[100px] h-[1px] bg-gray-dark"
+        />
 
-        <div className="flex gap-5">
+        <div className="flex gap-3 lg:gap-5">
           <div
             className="rounded-full overflow-hidden border border-gray-500 p-3 cursor-pointer"
             onClick={prevImage}

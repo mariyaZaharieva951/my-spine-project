@@ -27,10 +27,10 @@ const items = [
 
 const Accordion = () => {
   return (
-    <div className="lg:w-[970px] mx-auto lg:pt-[160px] px-[24px] lg:px-0">
-      <h2 className="lg:w-full lg:text-7xl text-4xl lg:text-start font-bold text-source-sans z-10 relative text-center">
-      <span className="text-nowrap">Got Questions? We&apos;ve Got</span>
-      <div className="absolute lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[100px] lg:left-[55px] top-[60px] left-[85px] z-20">
+    <div className="lg:w-[970px] mx-auto lg:pt-[160px] px-[24px] lg:px-0 pt-[60px]">
+      <h2 className="lg:w-full lg:text-7xl text-4xl text-start font-bold text-source-sans z-10 relative">
+      <span className="lg:text-nowrap">Got Questions? We&apos;ve Got</span>
+      <div className="absolute lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[100px] lg:left-[55px] top-[2px] left-[100px] z-20">
             <Image
               src="/assets/effect.png"
               alt="effect"

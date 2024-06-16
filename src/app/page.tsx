@@ -22,10 +22,10 @@ export default function Home() {
   </div>
   <Accordion />
   <div className="flex flex-col">
-    <div className="order-1 lg:order-2">
+    <div className="order-2 lg:order-2">
       <Footer />
     </div>
-    <div className="order-2 lg:order-1">
+    <div className="order-1 lg:order-1">
       <Contact />
     </div>
   </div>
