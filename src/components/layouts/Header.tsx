@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="relative flex justify-between items-center lg:m-auto lg:w-full container  h-[116px] font-bold text-popins px-5">
+    <header className="relative flex justify-between items-center lg:m-auto lg:w-full container  lg:h-[116px] h-[85px] font-bold text-popins px-5">
       
         <nav className="flex lg:gap-[135px] lg:text-base lg:items-center w-full">
           <img
