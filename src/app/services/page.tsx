@@ -14,7 +14,7 @@ const ServicesPage = () => {
         heading1="Our services make"
         heading2="your Business"
         heading3="easier"
-        effectClassName="lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[330px] lg:left-[600px] top-[255px] left-[120px]"
+        effectClassName="lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[330px] lg:left-[600px] top-[230px] left-[120px]"
       />
       <div className="bg-web-design bg-center">
         <Solutions />
