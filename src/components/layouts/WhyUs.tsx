@@ -1,7 +1,7 @@
 const WhyUs = () => {
   return (
-    <div className="grid grid-cols-12 gap-4 p-6 bg-white rounded-lg shadow-lg">
-      <div className="container col-span-12 flex flex-col items-center lg:mt-[80px] lg:mb-[160px]">
+    <div className="grid grid-cols-12 gap-4 p-6 bg-white">
+      <div className="container col-span-12 flex flex-col items-center lg:mt-[80px] lg:mb-[80px]">
         <div className="flex flex-col lg:flex-row justify-center items-center space-x-0 lg:space-x-24">
           <div className="lg:w-[670px] lg:h-[494px] text-center lg:text-left">
             <h2 className="lg:text-7xl text-4xl font-bold font-pro lg:pb-[20px]">

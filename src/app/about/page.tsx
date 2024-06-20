@@ -15,7 +15,7 @@ const AboutUs = () => {
       <div className="bg-web-design bg-center bg-cover">
         <WhyUs />
       </div>
-      <Contact />
+      <Contact heading='Get in Touch with DigitalBoostPro'/>
       <Footer />
     </div>
   );

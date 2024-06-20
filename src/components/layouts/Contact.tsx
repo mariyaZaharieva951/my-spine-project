@@ -8,12 +8,12 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Contact = () => {
+const Contact = ({ heading }: { heading: string }) => {
   return (
-    <div className="lg:w-[1170px] pb-[80px] px-[24px] mx-auto flex lg:flex-row flex-col justify-center lg:justify-between">
+    <div className="lg:w-[1170px] lg:pb-[160px] pb-[80px] px-[24px] mx-auto flex lg:flex-row lg:gap-[80px] flex-col justify-center lg:justify-between">
       <div className="lg:w-[530px] pt-[80px]">
-        <h2 className="lg:text-6xl text-4xl font-bold text-center lg:text-left">
-          Get in Touch with Spine
+        <h2 className="lg:text-[56px] text-4xl font-bold text-center leading-none lg:text-left">
+          {heading}
         </h2>
         <p className="lg:text-base text-sm font-bold text-gray-text text-center lg:text-left py-4">
           Whether you have questions about our services, want to discuss a

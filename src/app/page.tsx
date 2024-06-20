@@ -26,7 +26,7 @@ export default function Home() {
       <Footer />
     </div>
     <div className="order-1 lg:order-1">
-      <Contact />
+      <Contact heading="Get in Touch with Spine" />
     </div>
   </div>
 </main>
