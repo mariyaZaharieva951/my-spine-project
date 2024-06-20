@@ -15,15 +15,17 @@ const Header = () => {
     <header className="relative flex justify-between items-center lg:m-auto lg:w-full container  lg:h-[116px] h-[85px] font-bold text-popins px-5">
       
         <nav className="flex lg:gap-[135px] lg:text-base lg:items-center w-full">
-          <img
-            className="w-[143px] h-[28px]"
-            src="./assets/logo.png"
-            alt="Logo"
-          />
+        <Link href="/">
+            <img
+              className="w-[143px] h-[28px]"
+              src="/assets/logo.png"
+              alt="Logo"
+            />
+        </Link>
           <ul className="hidden md:flex gap-[48px]">
             <li className="hover:bold">
               <Link
-                href="/home"
+                href="/"
                 className="text-gray-dark hover:text-black-text px-4 py-2"
               >
                 Home
@@ -39,7 +41,7 @@ const Header = () => {
             </li>
             <li className="hover:bold">
               <Link
-                href="/service"
+                href="/services"
                 className="text-gray-dark hover:text-black-text px-4 py-2"
               >
                 Service
@@ -92,7 +94,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/service"
+                  href="/services"
                   className="block hover:bg-gray-100 rounded-md px-4 py-2"
                 >
                   Service

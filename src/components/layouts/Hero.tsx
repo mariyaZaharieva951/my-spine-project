@@ -17,7 +17,7 @@ const Hero = () => {
           </div>
           <span className="relative z-10"> solutions</span>
         </h1>
-        <p className="text-gray-dark lg:text-sm font-bold text-center pt-[32px]">
+        <p className="text-gray-dark lg:text-sm font-bold text-center pt-[32px] px-[24px] lg:px-0">
           Elevate your online presence with Spine cutting-edge solutions.
           Discover limitless possibilities for your digital agency&aposs
           success.

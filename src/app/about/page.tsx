@@ -10,7 +10,7 @@ const AboutUs = () => {
   return (
     <div>
       <Header />
-      <About />
+      <About heading1="About us" heading2="" heading3="" effectClassName="lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[240px] lg:left-[635px] top-[135px] left-[122px]" />
       <OurStory />
       <div className="bg-web-design bg-center bg-cover">
         <WhyUs />

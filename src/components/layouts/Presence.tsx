@@ -26,7 +26,7 @@ const Presence = () => {
   return (
     <div className="container flex flex-col items-start lg:pt-[120px] pt-[60px] lg:pb-[80px] px-[24px] lg:px-0">
       <div className="flex flex-col lg:flex-row lg:gap-[60px] lg:pb-[80px] pb-[60px]">
-        <h2 className="lg:w-full lg:text-7xl text-4xl font-bold text-start text-source-sans z-10 relative text-center">
+        <h2 className="lg:w-full lg:text-7xl text-4xl font-bold text-start text-source-sans z-10 relative">
           <span className="text-nowrap">Elevate Your</span>
           <div className="absolute lg:w-[223px] lg:h-[37px] w-[120px] h-[47px] lg:top-[105px] lg:left-[5px] top-[40px] left-[10px] z-20">
             <Image

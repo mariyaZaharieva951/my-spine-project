@@ -22,7 +22,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
         <span className="text-xl pr-[10px]">{isOpen ? '▲' : '▼'}</span>
       </div>
       <div className={`overflow-hidden transition-all duration-500 ${isOpen ? 'max-h-screen mt-' : 'max-h-0'}`}>
-        <p className="lg:text-xl text-xs font-bold text-gray-text bg-gray-light rounded-md px-[10px] mt-[10px]">{content}</p>
+        <p className="lg:text-xl text-xs font-bold text-gray-text bg-gray-light rounded-md px-[10px] py-[10px] mt-[10px]">{content}</p>
       </div>
     </div>
   );

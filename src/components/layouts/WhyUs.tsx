@@ -1,10 +1,10 @@
 const WhyUs = () => {
   return (
-    <div className="grid grid-cols-12 gap-4 pb-[60px] bg-white">
+    <div className="grid grid-cols-12 gap-4 lg:pb-[60px] bg-white px-[24px] lg:px-0">
       <div className="container col-span-12 flex flex-col items-center lg:mt-[80px] lg:mb-[80px]">
         <div className="flex flex-col lg:flex-row justify-center items-center space-x-0 lg:space-x-24">
           <div className="lg:w-[670px] lg:h-[494px] text-center lg:text-left">
-            <h2 className="lg:text-7xl text-4xl font-bold font-pro lg:pb-[20px]">
+            <h2 className="lg:text-7xl text-4xl font-bold font-pro pb-[20px]">
               Why Choose Us?
             </h2>
             <p className="lg:text-base text-sm text-gray-text">
@@ -13,7 +13,7 @@ const WhyUs = () => {
               ever-evolving online landscape.
             </p>
 
-            <ul className="py-[40px] space-y-4">
+            <ul className="py-[40px] space-y-4 text-left">
               <li className="flex items-start lg:text-base text-sm text-gray-text">
                 <img src="./assets/point.png" className="mr-2 mt-1" />
                 <span>
