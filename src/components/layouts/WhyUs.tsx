@@ -1,6 +1,6 @@
 const WhyUs = () => {
   return (
-    <div className="grid grid-cols-12 gap-4 p-6 bg-white">
+    <div className="grid grid-cols-12 gap-4 pb-[60px] bg-white">
       <div className="container col-span-12 flex flex-col items-center lg:mt-[80px] lg:mb-[80px]">
         <div className="flex flex-col lg:flex-row justify-center items-center space-x-0 lg:space-x-24">
           <div className="lg:w-[670px] lg:h-[494px] text-center lg:text-left">
@@ -57,7 +57,7 @@ const WhyUs = () => {
               About Us
             </div>
           </div>
-          <div className="lg:w-[485px] lg:h-[485px]">
+          <div className="lg:w-[485px] lg:h-[485px] mt-[20px] lg:mt-0">
             <img src="./assets/choose.png" alt="choose" />
           </div>
         </div>

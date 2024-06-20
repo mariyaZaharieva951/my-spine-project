@@ -11,7 +11,7 @@ import {
 const Contact = ({ heading }: { heading: string }) => {
   return (
     <div className="lg:w-[1170px] lg:pb-[160px] pb-[80px] px-[24px] mx-auto flex lg:flex-row lg:gap-[80px] flex-col justify-center lg:justify-between">
-      <div className="lg:w-[530px] pt-[80px]">
+      <div className="lg:w-[530px] lg:pt-[80px] pt-[60px]">
         <h2 className="lg:text-[56px] text-4xl font-bold text-center leading-none lg:text-left">
           {heading}
         </h2>
@@ -21,7 +21,7 @@ const Contact = ({ heading }: { heading: string }) => {
           hear from you.
         </p>
         <ul className="text-center lg:text-left">
-          <li className="lg:text-xl text-lg font-bold ml-20px p-3 bg-gray-bg">
+          <li className="lg:text-xl text-lg font-bold ml-20px p-3">
             <FontAwesomeIcon icon={faLocationDot} className="pr-2 text-sm" />
             Plovdiv, K. Riacho 95, Bulgaria
           </li>
